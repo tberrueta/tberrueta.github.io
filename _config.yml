@@ -132,7 +132,7 @@ author:
     - label: "Google Scholar"
       icon: "fa fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=iR9utFwAAAAJ&hl=en"
-     label: "Twitter"
+    - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/BerruetaThomas"
     # - label: "CV"
