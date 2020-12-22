@@ -136,8 +136,8 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/BerruetaThomas"
     - label: "CV"
-     icon: "fas fa-fw fa-address-card"
-     url: "/assets/pdfs/BerruetaCV.pdf"
+      icon: "fas fa-fw fa-address-card"
+      url: "/assets/pdfs/BerruetaCV.pdf"
 
 # Site Footer
 footer:
