@@ -110,13 +110,13 @@ analytics:
 author:
   name             : "Thomas A. Berrueta"
   avatar           : "/assets/images/ThomasBerrueta.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Robotics Ph.D. Candidate"
-  location         : "Chicago, USA"
+  bio              : "Postdoctoral Scholar in Robotics and AI @ Caltech"
+  location         : "Pasadena, USA"
   email            : # "anapervan@u.northwestern.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:tberrueta@u.northwestern.edu
+      url: mailto:berrueta@caltech.edu
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
