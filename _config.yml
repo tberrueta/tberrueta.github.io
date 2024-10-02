@@ -110,8 +110,8 @@ analytics:
 author:
   name             : "Thomas A. Berrueta"
   avatar           : "/assets/images/ThomasBerrueta.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Postdoctoral Scholar in Robotics and AI @ Caltech"
-  location         : "Pasadena, USA"
+  bio              : "Postdoctoral Scholar @ Caltech"
+  location         : "Pasadena, CA"
   email            : # "anapervan@u.northwestern.edu"
   links:
     - label: "Email"
