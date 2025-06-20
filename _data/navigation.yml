@@ -1,8 +1,8 @@
 # main links
 main:
   - title: "Research"
-    url: research.html
+    url: research
   - title: "Publications"
-    url: publications.html
+    url: publications
   # - title: "&#127912;"
   #   url: art
