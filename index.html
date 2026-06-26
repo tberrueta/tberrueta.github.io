@@ -1,23 +1,202 @@
----
-layout: archive
-author_profile: true
----
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thomas A. Berrueta</title>
+  <meta name="description" content="Thomas A. Berrueta — Assistant Professor of Mechanical Engineering at Stanford University (starting January 2027), Director of the Physical Active Learning Laboratory. Robot learning, control, and physics.">
+  <meta property="og:title" content="Thomas A. Berrueta">
+  <meta property="og:description" content="Assistant Professor of Mechanical Engineering at Stanford University (starting January 2027). Director of the Physical Active Learning Laboratory.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/ThomasBerrueta.jpg">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>
+    /* set theme before first paint to avoid flash */
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) { t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
 <body>
 
-<h2>Latest News</h2>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a href="index.html" class="brand">Thomas A. Berrueta</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle light/dark theme">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2 12h2.5M19.5 12H22M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+      </button>
+    </div>
+  </header>
 
-  <p style="font-size: 70%">Excited to announce that I have stepped up as Team Lead for Caltech Racer's <a href="https://www.indyautonomouschallenge.com/">Indy Autonomous Challenge</a> team. This is a full sized autonomous IndyNXT racecar capable of reaching speeds exceeding 170mph that we have been using as a research platform. In addition to leading the design of the car's control systems, as lead I am responsible for managing the project and pushing the team towards cool research ideas on multiple fronts. Caltech produced a <a href="https://magazine.caltech.edu/post/computer-start-your-engine">feature article</a> as well as an accompanying video where they interviewed me about the project and our performance at the IndyCar Grand Prix of Monterey.
-    
-    <br>
-    <br>
-    <iframe width="560" height="315" src="https://youtu.be/wj-sodcnG80?si=Vrf1GQraFk-Fi1ne" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <main>
+    <!-- HERO / ABOUT -->
+    <div class="wrap hero" id="about">
+      <div class="hero-grid">
+        <img class="hero-photo" src="assets/images/ThomasBerrueta.jpg" alt="Thomas A. Berrueta">
+        <div>
+          <h1>Thomas A. Berrueta</h1>
+          <p class="role">Assistant Professor of Mechanical Engineering at <span class="cardinal">Stanford University</span> <span class="role-date">(Starting January 2027)</span></p>
+          <p class="subrole">Director of the Physical Active Learning Laboratory</p>
+          <div class="btn-row">
+            <a class="btn primary" href="mailto:berrueta@stanford.edu">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              Email
+            </a>
+            <a class="btn" href="https://scholar.google.com/citations?user=iR9utFwAAAAJ&hl=en">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 4 2 10l10 6 10-6Z"/><path d="M6 12v5c0 1 2.7 2.5 6 2.5s6-1.5 6-2.5v-5"/></svg>
+              Scholar
+            </a>
+            <a class="btn" href="https://github.com/tberrueta">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12 11.5 11.5 0 0 0 8.4 23c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 5 18.3 5.3 18.3 5.3c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+              GitHub
+            </a>
+            <a class="btn" href="https://www.linkedin.com/in/thomas-berrueta-9a0831a6/">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.74v20.52C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.74V1.74C24 .78 23.2 0 22.22 0Z"/></svg>
+              LinkedIn
+            </a>
+            <a class="btn" href="assets/pdfs/BerruetaCV.pdf">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/></svg>
+              CV
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="hero-statement">My research develops the foundations of <strong>robotic self-sufficiency</strong> &mdash; enabling agents to safely learn, rapidly adapt, and actively exploit their physical embodiment in real time. Always pushing to run our algorithms on complex, agile, high-performance hardware, from autonomous racecars on the track to robots out in the wild.</p>
+    </div>
 
-    <br>Also, in collaboration with my colleague Allison Pinosky, I will be presenting some <a href="https://tberrueta.github.io/assets/pdfs/PinoskyCASE2025.pdf">recent work</a> at the <i>IEEE Conference on Automation Science and Engineering (CASE)</i> on what it takes to make reinforcement algorithms learn from scratch in real-time on hardware. This work is an extension of my reinforcement learning work published in <i>Nature Machine Intelligence</i>, where I introduced a novel framework called <a href="https://www.nature.com/articles/s42256-024-00829-3">MaxDiff RL</a>.
+    <!-- PAL LAB -->
+    <section id="lab">
+      <div class="wrap">
+        <div class="callout">
+          <span class="pill">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.6l2.1 5.7 5.7 2.1-5.7 2.1L12 17.2l-2.1-5.7L4.2 9.4l5.7-2.1L12 1.6zM19 14.5l.9 2.5 2.5.9-2.5.9-.9 2.5-.9-2.5-2.5-.9 2.5-.9.9-2.5zM5 15l.7 1.9 1.9.7-1.9.7L5 20.2l-.7-1.9-1.9-.7 1.9-.7L5 15z"/></svg>
+            Physical Active Learning Laboratory
+          </span>
+          <p>The <strong>PAL Lab</strong> tackles real-time robot learning for safety-critical systems. We study settings in which robots have to keep learning continually, making decisions on-the-fly, even when mistakes can be costly. We draw on reinforcement learning, optimal control, information theory, and physics to make that possible, with the goal of enriching how robots interact with and adapt to the physical world.</p>
+          <p class="recruit"><strong>Join us:</strong> The PAL Lab opens in January 2027, and I&rsquo;ll be recruiting passionate PhD students and postdocs. Full details and open positions will follow with the lab website. If this sounds like you, please <a href="mailto:berrueta@stanford.edu">reach out</a>.</p>
+        </div>
+      </div>
+    </section>
 
-<h2>About Me</h2>
+    <!-- NEWS -->
+    <section id="news">
+      <div class="wrap">
+        <h2 class="section-title">Latest</h2>
+        <ul class="news-list">
+          <li class="news-item">
+            <span class="news-date">2026</span>
+            <p class="news-body"><span class="new-tag">NEW</span>I&rsquo;ll be joining <strong>Stanford University</strong> as an Assistant Professor of Mechanical Engineering in January 2027, where I&rsquo;ll launch the <strong>Physical Active Learning (PAL) Lab</strong>. More on open PhD and postdoc positions soon.</p>
+          </li>
+          <li class="news-item">
+            <span class="news-date">2026</span>
+            <p class="news-body">Our paper on <strong>environment-aware GNSS covariance learning for autonomous racing</strong> was accepted to <strong>ICRA 2026</strong>, and our workshop paper on <strong>online continual learning for robust LiDAR perception</strong> at racing speeds was named a <strong>Best Paper Finalist</strong>.</p>
+          </li>
+          <li class="news-item">
+            <span class="news-date">2025</span>
+            <p class="news-body">Named <strong>Associate Editor of IEEE Robotics and Automation Letters (RA-L)</strong>, handling Aerial &amp; Field Robotics and Theoretical Foundations.</p>
+          </li>
+          <li class="news-item">
+            <span class="news-date">2025</span>
+            <p class="news-body">As technical lead of <strong>Caltech Racer</strong>, our autonomous IndyCar program made its debut at its first U.S. road-course challenge &mdash; featured by <em>Caltech Magazine</em>. <a href="https://magazine.caltech.edu/post/computer-start-your-engine">Read more</a></p>
+          </li>
+          <li class="news-item">
+            <span class="news-date">2025</span>
+            <p class="news-body">Invited talks: &ldquo;Robot learning on the edge&rdquo; at the <strong>ELLIIT Robot Learning Symposium</strong> (Lund University, Sweden), and a robotics panel at <strong>a16z Tech Week</strong> (Los Angeles).</p>
+          </li>
+          <li class="news-item">
+            <span class="news-date">2024</span>
+            <p class="news-body"><strong>Maximum Diffusion Reinforcement Learning</strong> published in <em>Nature Machine Intelligence</em>, and named a <strong>Microsoft Future Leader in Robotics and AI</strong>. <a href="https://www.nature.com/articles/s42256-024-00829-3">Article</a></p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-  <p style="font-size: 70%"> I am an interdisciplinary roboticist interested in exploring how physics can inform and complicate robot learning. I combine insights from optimal control, reinforcement learning, and statistical physics to develop reliable real-time autonomy for hardware systems.
+    <!-- RESEARCH -->
+    <section id="research">
+      <div class="wrap">
+        <h2 class="section-title">Research</h2>
 
-  <br><br>I am a Postdoctoral Scholar at the California Institute of Technology in the Autonomous Robotics and Control Lab, where I am advised by Profs. <a href="https://aerospacerobotics.caltech.edu/">Soon-Jo Chung</a> and Fred Hadaegh. I received a Ph.D. and M.S. in Mechanical Engineering from Northwestern University in 2024, where I was a <a href="https://www.mccormick.northwestern.edu/news/articles/2022/06/two-graduate-students-receive-presidential-fellowships/">Presidential Fellow</a> under the supervision of Prof. <a href="https://murpheylab.github.io/">Todd Murphey</a>. I also received a B.S. in Engineering from Harvey Mudd College in 2017.
+        <div class="pillar-card">
+          <p class="kicker">Safely learn</p>
+          <p>High-performance robotic systems, like autonomous racecars, can be unforgiving. I design robot learning algorithms to work at runtime for these kinds of platforms, fusing the predictive power of learned models with guarantees that actually hold on hardware.</p>
+          <div class="video">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="assets/videos/racing.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div class="pillar-card">
+          <p class="kicker">Rapidly adapt</p>
+          <p>Robots that learn in simulation often stumble in the real world. I build sample-efficient algorithms that let robots learn new skills directly on hardware. I leverage techniques from model-based reinforcement learning and active learning to make this possible.
+          </p>
+          <div class="video">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="assets/videos/maxdiff.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div class="pillar-card">
+          <p class="kicker">Exploit embodiment</p>
+          <p>A robot's body, its sensors, materials, and dynamics, are a resource, not just a constraint. I build agents that actively probe and exploit their own embodiment, leveraging the physics of a system and their environments towards robot learning and control.
+
+          </p>
+          <div class="video">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="assets/videos/smarticles.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot-grid">
+      <div>&copy; 2026 Thomas A. Berrueta &middot; Palo Alto, CA</div>
+      <div class="foot-links">
+        <a href="mailto:berrueta@stanford.edu">Email</a>
+        <a href="https://scholar.google.com/citations?user=iR9utFwAAAAJ&hl=en">Scholar</a>
+        <a href="https://github.com/tberrueta">GitHub</a>
+        <a href="https://www.linkedin.com/in/thomas-berrueta-9a0831a6/">LinkedIn</a>
+        <a href="assets/pdfs/BerruetaCV.pdf">CV</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      btn.addEventListener('click', function () {
+        var cur = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', cur);
+        try { localStorage.setItem('theme', cur); } catch (e) {}
+      });
+    })();
+
+    /* click-to-play YouTube facades */
+    (function () {
+      document.querySelectorAll('.video-facade').forEach(function (el) {
+        el.addEventListener('click', function () {
+          var id = el.getAttribute('data-id');
+          var iframe = document.createElement('iframe');
+          iframe.setAttribute('src', 'https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0');
+          iframe.setAttribute('title', 'YouTube video player');
+          iframe.setAttribute('frameborder', '0');
+          iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+          iframe.setAttribute('allowfullscreen', '');
+          el.parentNode.replaceChild(iframe, el);
+        });
+      });
+    })();
+  </script>
 </body>
+</html>
