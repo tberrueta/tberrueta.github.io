@@ -176,6 +176,8 @@ h2.section-title { font-size: clamp(1.62rem, 1.3rem + 1.5vw, 2.15rem); margin: 0
   padding: 11px 22px; border-radius: 999px; margin: 2px 0 20px;
   box-shadow: 0 8px 22px rgba(var(--glow), .30);
 }
+.callout .pill { text-decoration: none; cursor: pointer; transition: opacity .15s, box-shadow .15s; }
+.callout .pill:hover { opacity: .88; box-shadow: 0 12px 28px rgba(var(--glow), .45); }
 .callout .pill svg { width: 1.08em; height: 1.08em; flex-shrink: 0; opacity: .95; color: rgba(255,255,255,.92); }
 :root[data-theme="dark"] .callout .pill { background: linear-gradient(135deg, #c1554c, #8f302b); color: #fff5f3; box-shadow: 0 8px 22px rgba(0,0,0,.5); }
 :root[data-theme="dark"] .btn.primary { background: #b3403a; border-color: #b3403a; color: #fff; }
